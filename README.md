@@ -13,11 +13,17 @@ Por último imprima os dados recebidos do usuário.
 O que significa:
 
 while (!entradaValida) {
+
 System.out.print("Digite a idade: ");
+
 idade = input.nextInt();
+
 if (idade >= 0 && idade <= 150) {
+
 entradaValida = true;
+
 } else {
+
  System.out.println("Idade inválida. Tente novamente.");
  }
  }
